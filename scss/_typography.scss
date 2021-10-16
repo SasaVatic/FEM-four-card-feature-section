@@ -1,0 +1,35 @@
+body {
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.heading-primary {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: $semi-bold;
+    color: $very-dark-blue;
+
+    &--light {
+        display: block;
+        font-weight: $extra-light;
+    }
+
+    @include tablet() {
+        font-size: 3rem;
+    }
+}
+
+.paragraph {
+    color: $grayish-blue;
+    text-align: center;
+    margin-top: 2rem;
+
+    @include tablet() {
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    @include laptop() {
+        width: 38%;
+    }
+}
