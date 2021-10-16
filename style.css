@@ -123,6 +123,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     background: linear-gradient(to left, #45d3d3 25%, #ea5353 25%, #ea5353 50%, #fcaf4a 50%, #fcaf4a 75%, #549ef2 75%);
+    -webkit-background-clip: text;
     background-clip: text;
     transition: transform 1s; }
     .footer__attribution a:hover {

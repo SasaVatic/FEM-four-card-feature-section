@@ -12,6 +12,7 @@
             font-size: 2rem;
             font-weight: $semi-bold;
             background: linear-gradient(to left, $cyan 25%, $red 25%, $red 50%, $orange 50%, $orange 75%, $blue 75%);
+            -webkit-background-clip: text;
             background-clip: text;
             transition: transform 1s;
 
